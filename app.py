@@ -2,12 +2,12 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 1,
-   "id": "c387e63d-37d4-40f9-8e47-3463371fe7d7",
+   "execution_count": 2,
+   "id": "6cbd59d0-0991-4f4c-adf7-90e72f96fb70",
    "metadata": {},
    "outputs": [],
    "source": [
-    "code = '''\n",
+    "app_code = '''\n",
     "import streamlit as st\n",
     "import pandas as pd\n",
     "\n",
@@ -65,19 +65,19 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 3,
-   "id": "3956b039-d59b-40a3-a6ec-e195706523e3",
+   "execution_count": 4,
+   "id": "3b9168ab-56d1-4ce5-be53-47db007d34ac",
    "metadata": {},
    "outputs": [],
    "source": [
     "with open(\"app.py\", \"w\", encoding=\"utf-8\") as f:\n",
-    "    f.write(code)\n"
+    "    f.write(app_code)\n"
    ]
   },
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "56d15b1f-23f8-4bdd-8398-d83d20d7ef2f",
+   "id": "00eb134c-f279-42c5-8288-eb951432c6ad",
    "metadata": {},
    "outputs": [],
    "source": []
